@@ -1,0 +1,95 @@
+
+====建立oracle数据库调试环境
+
+编译Oracle驱动：
+1. 找到Oracle相关的两个路径
+	$(OracleDir)\product\11.2.0\dbhome_1\OCI\include
+	$(OracleDir)\product\11.2.0\dbhome_1\OCI\lib\MSVC
+2. 找到待编译的工程
+	$(QTDIR)\4.8.6\src\plugins\sqldrivers\oci
+3. 将待编译工程里面的oci.pro文件修改如下（即添加最后两行代码）
+	TARGET = qsqloci
+	SOURCES = main.cpp
+	include(../../../sql/drivers/oci/qsql_oci.pri)
+	include(../qsqldriverbase.pri)
+	INCLUDEPATH += $(OracleDir)\product\11.2.0\dbhome_1\OCI\include
+	LIBPATH += $(OracleDir)\product\11.2.0\dbhome_1\OCI\lib\MSVC
+4. 三种编译方法
+	* 命令行编译
+	set INCLUDE = %INCLUDE%;$(OracleDir)\product\11.2.0\dbhome_1\OCI\include
+	set LIB = %LIB%;$(OracleDir)\product\11.2.0\dbhome_1\OCI\lib\MSVC
+	cd $(QTDIR)\4.8.6\src\plugins\sqldrivers\oci
+	qmake -makefile oci.pro
+
+	* QT Creator
+
+	* Visual Studio
+
+
+创建测试数据库
+1. 打开"Database Configuration Assistant"命令
+2. 启用"创建数据库"选项，单击"下一步"按钮，进入“步骤2：数据库模版”界面
+3. 启用“一般用途或事务处理”选项，单击“下一步”按钮，进入“步骤3：数据库标识”界面
+4. 在“步骤3：数据库标识”界面中设置新数据库的全局数据库名，这里设置为myorcl，而数据库实例（SID）默认与全局数据库名相同，也为myorcl
+5. 设置好口令后，单击“下一步”按钮，进入“步骤6：存储选项”界面，在该界面中启用“文件系统”选项
+6. 单击“下一步”按钮，进入“步骤7：数据库文件所在位置”界面。设置好存储位置后，单击“下一步”按钮，进入“步骤8”
+7. 采用默认设置，单击“下一步”按钮，进入“步骤9：数据库内容”界面，在该界面中可以对示例方案及定制脚本进行配置。采用默认设置，单击“下一步”按钮，进入“步骤10：初始化参数”界面，
+该界面可以对内存、调整大小、字符集和连接模式进行配置。采用默认设置，单击“下一步”按钮，进入“步骤11：安全设置”界面，在该界面中采用默认设置，即启用“保留增强的11g默认安全设置”选项。
+单击“下一步”按钮，进入“步骤12：自动维护任务”界面，在该界面中选择“启用自动维护任务”选项。
+8. 单击“下一步”按钮，进入“步骤13：数据库存储”界面，在该界面中可以指定数据库的存储参数，单击“下一步”按钮，进入“步骤14：创建选项”界面
+9. 单击“完成”按钮，在弹出的“确认”对话框中单击“确定”按钮， 即可开始新数据库的创建
+
+创建表空间、创建用户
+* 创建用户之前，先要创建表空间，其格式为：
+	create tablespace 表空间名 datafile '数据文件名' size 表空间大小
+
+	如：
+	SQL> create tablespace news_tablespace datafile 'F:\news\news_data.dbf' size 500M;
+* 创建用户，其格式为：
+	create user 用户名 identified by 密码 default tablespace 表空间名
+
+	如：
+	SQL> create user news indentified by news default tablespace news_tablespace;
+
+* 授权给新建的用户：
+
+	SQL> grant dba to news;
+
+
+
+
+
+
+
+
+=====脚本创建数据表
+
+****数据库类型
+*Oracle数据类型
+字符串类型
+
+数字类型
+
+日期类型
+
+LOB类型
+
+LONG RAW & RAW类型
+
+ROWID & UROWID类型
+
+
+材料数据库
+材料表：Material
+材料二级分类表：MaterialSubClass
+材料类别表：MaterialClass
+材料属性值表：MaterialProperty
+
+战斗部数据库
+战斗部表：Warhead
+战斗部二级分类表：WarheadSubClass
+战斗部类别表：WarheadClass
+
+任务数据库
+任务表：Task
+

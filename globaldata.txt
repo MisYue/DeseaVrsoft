@@ -1,0 +1,33 @@
+//通过GUID查询任务
+[0] select name from task where taskguid='%1'
+//通过GUID查询战斗部
+[1] select * from warhead where warheadguid = '%1'
+//获取战斗部最大Id
+[2] select max(warheadid) from warhead
+
+//插入战斗部
+[3] insert into warhead(warheadid, warheadguid, name, projectguid, country, warheadsubclassguid, describe, missilename, attendedstarttime, attendedendtime, warhead2dxml, warheadpowercsv, createtime, updatetime, sharing) values(:1, :2, :3, :4, :5, :6, :7, :8, :9, :10, :11, :12, :13, :14, :15)
+
+//获取所有战斗部所有类别guid和名称
+[4] select warheadclassguid, name from warheadclass
+
+//获取战斗部一级类别下的所有二级类别guid和名称
+[5] select warheadsubclassguid, name from warheadsubclass where warheadclassguid = '%1'
+
+//获取所有任务guid和名称
+[6] select taskguid, name from task
+
+//获取任务下所有的战斗部guid和名称
+[7] select warheadguid, name from warhead where projectguid = '%1'
+
+//获取战斗部二级类别名称
+[8] select name from warheadsubclass where warheadsubclassguid = '%1'
+
+//获取战斗部二级类别对应的一级类别GUID
+[9] select warheadclassguid from warheadsubclass where warheadsubclassguid = '%1'
+
+//获取战斗部一级类别名称
+[10] select name from warheadclass where warheadclassguid = '%1'
+
+//获取战斗部二级类别Guid
+[11] select warheadsubclassguid from warheadsubclass where name = '%1'

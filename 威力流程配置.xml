@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PowerProcedureConfig mean="威力分析流程配置">
+  <!--威力分析子流程-->
+  <SubProcedures>
+    <!--冲击波流程-->
+    <SubProcedure id="{A6A9A294-1092-43F4-97F9-1DFF2D3EC099}" mean="冲击波场">
+      <!--预处理-->
+      <PreProcesses>
+        <!--选择计算方法-->
+        <PreProcess Type="Radio" mean="选择计算方法">
+          <Radio mean="是否整弹直接计算"></Radio>
+          <Radio mean="是否考虑等效成TNT计算"></Radio>
+        </PreProcess>
+      </PreProcesses>
+      <!--计算任务-->
+      <CountTasks>
+        <!--不同距离处冲击波超压计算-->
+        <Task mean="不同距离处冲击波超压、比冲量、正压区作用时间计算" operators="{A2A6BB38-64F7-4C1B-BEBF-C8B71EAB6240}"></Task>
+
+      </CountTasks>
+    </SubProcedure>
+  </SubProcedures>
+
+  <!--大流程-->
+  <!--warhead_type:0-杀爆弹 1-侵爆弹-->
+  <!--杀爆弹流程-->
+  <WarheadProcedure warhead_type="0">
+    <SubProcedures id="{A6A9A294-1092-43F4-97F9-1DFF2D3EC099}"></SubProcedures>
+  </WarheadProcedure>
+  
+  <!--算子库-->
+  <OperatorLib>
+    <!--冲击波超压-->
+    <Operators id="{A2A6BB38-64F7-4C1B-BEBF-C8B71EAB6240}" mean="冲击波超压公式">
+      <Operator dll="BITWPSWCompute">
+        <GetArgumentsEx name="从引擎获取的参数-ANSI.xml" />
+        <SetArgumentsEx name="AmmShockWave_SetArgumentsEx" />
+        <InitEnginEx name="AmmShockWave_InitEnginEx" />
+        <VerifyArgumentsEx name="AmmShockWave_VerifyArgumentsEx" />
+        <RunEx name="AmmShockWave_RunEx" />
+        <GetResultEx name="AmmShockWave_GetResultEx" />
+        <ReleaseEx name="AmmShockWave_ReleaseEx" />
+        <ExceptionInfoEx name="AmmShockWave_GetExceptionInfoEx" />
+      </Operator>
+    </Operators>
+  </OperatorLib>
+</PowerProcedureConfig>

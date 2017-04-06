@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file>Resources/images/add.PNG</file>
+        <file>Resources/images/addChild.PNG</file>
+        <file>Resources/images/back.png</file>
+        <file>Resources/images/boundBox.PNG</file>
+        <file>Resources/images/delete.PNG</file>
+        <file>Resources/images/exit.PNG</file>
+        <file>Resources/images/face.PNG</file>
+        <file>Resources/images/flatLines.PNG</file>
+        <file>Resources/images/flush.PNG</file>
+        <file>Resources/images/front.PNG</file>
+        <file>Resources/images/goback.PNG</file>
+        <file>Resources/images/import.PNG</file>
+        <file>Resources/images/key.PNG</file>
+        <file>Resources/images/lessKey.PNG</file>
+        <file>Resources/images/moveDown.PNG</file>
+        <file>Resources/images/moveUp.PNG</file>
+        <file>Resources/images/open.PNG</file>
+        <file>Resources/images/save.PNG</file>
+        <file>Resources/images/save2.PNG</file>
+        <file>Resources/images/set.PNG</file>
+        <file>Resources/images/wireframe.PNG</file>
+        <file>Resources/images/zoomIn.PNG</file>
+        <file>Resources/images/zoomOut.PNG</file>
+        <file>Resources/images/保存目标.png</file>
+        <file>Resources/images/材料库.png</file>
+        <file>Resources/images/导出.png</file>
+        <file>Resources/images/导入.png</file>
+        <file>Resources/images/毁伤树.png</file>
+        <file>Resources/images/删除目标.png</file>
+        <file>Resources/images/搜索.png</file>
+        <file>Resources/images/新建项目.png</file>
+        <file>Resources/images/closeMW.png</file>
+        <file>Resources/images/dockcloseMW.png</file>
+        <file>Resources/images/maxMW.png</file>
+        <file>Resources/images/minMW.png</file>
+        <file>Resources/images/titleIconMW.png</file>
+        <file>Resources/images/undockMW.png</file>
+        <file>Resources/images/myappico.ico</file>
+
+    </qresource>
+</RCC>

@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/root">
+        <file alias="delete">Resources/delete2FL.png</file>
+        <file alias="new">Resources/newMW.png</file>
+        <file alias="open">Resources/openMW.png</file>
+        <file alias="save">Resources/saveMW.png</file>
+        <file alias="metal">Resources/crossParamMW.png</file>
+        <file alias="charge">Resources/ealgoMW.png</file>
+        <file alias="export_power">Resources/go-top-3.png</file>
+        <file alias="export">Resources/go-up-4.png</file>
+        <file alias="import">Resources/import2FL.png</file>
+        <file alias="property">Resources/resultMW.png</file>
+        <file alias="save_as">Resources/saveAsMW.png</file>
+        <file alias="data">../globaldata.txt</file>
+        <file alias="back">Resources/back.png</file>
+      <file alias="css">../black.css</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,13 @@
+#ifndef WARHEADDATAENTITY_GLOBAL_H
+#define WARHEADDATAENTITY_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef WARHEADDATAENTITY_LIB
+# define WARHEADDATAENTITY_EXPORT Q_DECL_EXPORT
+#else
+# define WARHEADDATAENTITY_EXPORT Q_DECL_IMPORT
+#pragma comment(lib, "warheaddataentity.lib")
+#endif
+
+#endif // WARHEADDATAENTITY_GLOBAL_H

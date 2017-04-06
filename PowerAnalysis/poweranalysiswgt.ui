@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PowerAnalysis</class>
+ <widget class="QWidget" name="PowerAnalysis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1005</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>威力分析</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="tab_structure">
+      <attribute name="icon">
+       <iconset resource="Resources/poweranalysis.qrc">
+        <normaloff>:/image/warhead</normaloff>:/image/warhead</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>战斗部结构</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_task">
+      <attribute name="icon">
+       <iconset resource="Resources/poweranalysis.qrc">
+        <normaloff>:/image/task</normaloff>:/image/task</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>计算任务配置</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_formula">
+      <attribute name="icon">
+       <iconset resource="Resources/poweranalysis.qrc">
+        <normaloff>:/image/formula</normaloff>:/image/formula</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>公式选择计算</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_result">
+      <attribute name="icon">
+       <iconset resource="Resources/poweranalysis.qrc">
+        <normaloff>:/image/result</normaloff>:/image/result</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>结果可视化及输出</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resources/poweranalysis.qrc"/>
+ </resources>
+ <connections/>
+</ui>

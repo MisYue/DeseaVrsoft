@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d1faa56a-2780-4bc8-8c47-71b93b8a78cd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{7443d4c4-3551-4b3d-b257-d2ba469473e2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\ReleaseDll">
+      <UniqueIdentifier>{6f34cd5e-7ff6-4512-a5a7-7128e8e11054}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\DebugDll">
+      <UniqueIdentifier>{7efcb8a6-d33f-465f-90f0-3fff26501347}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="KillTree">
+      <UniqueIdentifier>{ae846a94-811c-4291-8b2f-24689063e54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KillTree\Header Files">
+      <UniqueIdentifier>{a9cc67f0-9936-42f9-ab39-e766a2907562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KillTree\Source Files">
+      <UniqueIdentifier>{f13769b1-0713-45bb-b8b1-7a577c913e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{a89ef4d5-ee7e-4775-824e-fca679a191f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DrawTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportTargetWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KillTreeEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KillTreeRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="osgBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProPrecessModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringExtend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="targetInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetVisual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DDTreeWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DrawKillTreeGraphView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DrawKillTreeSetWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DrawKillTreeWgt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImportTargetWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_itemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_KillTreeEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_KillTreeRenderer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_partEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_partTree.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PreProcessModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TargetVisual.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TitleBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DDTreeWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DrawKillTreeGraphView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DrawKillTreeSetWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DrawKillTreeWgt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImportTargetWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_itemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_KillTreeEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_KillTreeRenderer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_partEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_partTree.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PreProcessModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TargetVisual.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TitleBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_DDTreeWidget.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_DrawKillTreeGraphView.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_DrawKillTreeSetWgt.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_DrawKillTreeWgt.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_ImportTargetWnd.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_itemWidget.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_KillTreeEditor.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_KillTreeRenderer.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_partEditor.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_partTree.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_PreProcessModel.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_TargetVisual.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseDll\moc_TitleBar.cpp">
+      <Filter>Generated Files\ReleaseDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_DDTreeWidget.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_DrawKillTreeGraphView.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_DrawKillTreeSetWgt.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_DrawKillTreeWgt.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_ImportTargetWnd.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_itemWidget.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_KillTreeEditor.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_KillTreeRenderer.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_partEditor.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_partTree.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_PreProcessModel.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_TargetVisual.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\DebugDll\moc_TitleBar.cpp">
+      <Filter>Generated Files\DebugDll</Filter>
+    </ClCompile>
+    <ClCompile Include="killTree\DrawKillTreeGraphView.cpp">
+      <Filter>KillTree</Filter>
+    </ClCompile>
+    <ClCompile Include="killTree\DrawKillTreeSetWgt.cpp">
+      <Filter>KillTree</Filter>
+    </ClCompile>
+    <ClCompile Include="killTree\DrawKillTreeWgt.cpp">
+      <Filter>KillTree</Filter>
+    </ClCompile>
+    <ClCompile Include="killTree\Link.cpp">
+      <Filter>KillTree</Filter>
+    </ClCompile>
+    <ClCompile Include="killTree\LogicalGate.cpp">
+      <Filter>KillTree\Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="killTree\Node.cpp">
+      <Filter>KillTree\Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="DDTreeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrawTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetPartDrawInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetVertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWorldCoordinateOfNodeVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="osgBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringExtend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetImportGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_criterion.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DrawKillTree.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DrawKillTreeSet.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PartRecognitionMethod.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PreProcessModel.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="killTree\Link.h">
+      <Filter>KillTree\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="killTree\LogicalGate.h">
+      <Filter>KillTree\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="killTree\Node.h">
+      <Filter>KillTree\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="myapp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="Resources\images\add.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\addChild.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\back.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\boundBox.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\closeMW.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\delete.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\dockcloseMW.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\exit.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\face.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\flatLines.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\flush.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\front.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\goback.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\import.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\key.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\lessKey.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\maxMW.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\minMW.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\moveDown.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\moveUp.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\open.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\save.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\save2.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\set.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\titleIconMW.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\undockMW.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\wireframe.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\zoomIn.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\zoomOut.PNG">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\保存目标.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\删除目标.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\导入.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\导出.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\搜索.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\新建项目.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\材料库.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\images\毁伤树.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DDTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImportTargetWnd.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="itemWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KillTreeEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KillTreeRenderer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="partEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PreProcessModel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TargetVisual.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TitleBar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="criterion.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="killTree\DrawKillTree.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="killTree\DrawKillTreeSet.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PartRecognitionMethod.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PreProcessModel.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="killTree\DrawKillTreeGraphView.h">
+      <Filter>KillTree</Filter>
+    </CustomBuild>
+    <CustomBuild Include="killTree\DrawKillTreeSetWgt.h">
+      <Filter>KillTree</Filter>
+    </CustomBuild>
+    <CustomBuild Include="killTree\DrawKillTreeWgt.h">
+      <Filter>KillTree</Filter>
+    </CustomBuild>
+    <CustomBuild Include="partTree.h">
+      <Filter>KillTree\Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

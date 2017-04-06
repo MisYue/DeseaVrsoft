@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<arguments version="1.1" id="{54112B6E-52EB-4ED7-8B05-E9668B1B9C82}" operatortype="AmmShockWave">
+	<argumentgroup version="1.1" name ="UNIT_SYSTEM" des="">
+		<argument version="1.1" id="0" name="LENGTH_COEF" type="enum" default="3" des="" enable="1">
+			<typeenum version="1.1" name="MM_UNIT" enum="LENGTH_COEF_MM" val="1" des="mm"/>
+			<typeenum version="1.1" name="CM_UNIT" enum="LENGTH_COEF_CM" val="2" des="cm"/>
+			<typeenum version="1.1" name="M_UNIT" enum="LENGTH_COEF_M" val="3" des="m"/>
+			<typeenum version="1.1" name="KM_UNIT" enum="LENGTH_COEF_KM" val="4" des="km"/>
+		</argument>		
+		<argument version="1.1" id="1" name="MASS_COEF" type="enum" default="2" des="" enable="1">
+			<typeenum version="1.1" name="G_MASS" enum="MASS_COEF_G" val="1" des="g"/>
+			<typeenum version="1.1" name="KG_MASS" enum="MASS_COEF_KG" val="2" des="kg"/>
+		</argument>		
+		<argument version="1.1" id="2" name="TIME_COEF" type="enum" default="3" des="" enable="1">
+			<typeenum version="1.1" name="US_TIME" enum="TIME_COEF_US" val="1" des="us"/>
+			<typeenum version="1.1" name="MS_TIME"  enum="TIME_COEF_MS" val="2" des="ms"/>
+			<typeenum version="1.1" name="S_TIME" enum="TIME_COEF_S" val="3" des="s"/>
+		</argument>
+	</argumentgroup>
+	
+	<argumentgroup version="1.1" name ="WARHEAD_PARAM" des="">
+		<argument version="1.1" id="3" name="WARHEAD_TOTAL_MASS" type="double" default="205.0" des="" enable="1">
+			<typedouble version="1.1" max="10000000" min="0.01" precision="0.01" step="0.1" val="5" des="" enable="1"/>
+		</argument>
+		<argument version="1.1" id="4" name="WARHEAD_CHARGE_MASS" type="integer" default="77" des="" enable="1">
+			<typedouble version="1.1" max="10000000" min="1" val="5" step="1" des=""/>
+		</argument>
+	</argumentgroup>
+	
+	<argumentgroup version="1.1" name ="CHARGE_PARAM" des="">
+		<argument version="1.1" id="5" name="CHARGE_ID" type="integer" default="0" des="" enable="0">
+			<typeinteger version="1.1" max="10000" min="0" precision="1" step="1" val="0" des=""/>
+		</argument>
+		<argument version="1.1" id="6" name="CHARGE_DENSITY" type="double" default="1800" des="" enable="1">
+			<typedouble version="1.1" max="10000000" min="0.01" val="1800" step="1" des=""/>
+		</argument>
+		<argument version="1.1" id="7" name="CHARGE_EXPLOSION_VELOCITY" type="double" default="7400" des="" enable="1">
+			<typedouble version="1.1" max="10000000" min="0.01" val="1800" step="1" des=""/>
+		</argument>
+		<argument version="1.1" id="8" name="CHARGE_EXPLOSION_HEAT" type="double" default="7.33e6" des="" enable="1">
+			<typedouble version="1.1" max="10000000" min="0.01" val="1800" step="1" des=""/>
+		</argument>
+		<argument version="1.1" id="9" name="CHARGE_EXPLOSIN_PRESSURE" type="double" default="0" des="" enable="1">
+			<typedouble version="1.1" max="10000000" min="0.01" val="1800" step="1" des=""/>
+		</argument>
+	</argumentgroup>
+	
+	<argumentgroup version="1.1" name ="CALCULATION_MODE" des="">
+		<argument version="1.1" id="10" name="ASWC_WAMM" type="enum" default="3" des="" enable="1">
+			<typeenum version="1.1" name="ARGUMENT_YES" enum="ASWC_WAMM_YES" val="2" des=""/>
+			<typeenum version="1.1" name="ARGUMENT_NO" enum="ASWC_WAMM_NO" val="3" des=""/>			
+		</argument>
+		<argument version="1.1" id="11" name="ASWC_TNTE" type="enum" default="2" des="" enable="1">
+			<typeenum version="1.1" name="ARGUMENT_YES" enum="ASWC_TNTE_YES" val="2" des=""/>
+			<typeenum version="1.1" name="ARGUMENT_NO" enum="ASWC_TNTE_NO" val="3" des=""/>
+		</argument>
+	</argumentgroup>
+	
+	<argumentgroup version="1.1" name ="CALCULATION_ITEM" des="">
+		<argument version="1.1" id="12" name="ASWC_AC_OP" type="bool" default="1" des="" enable="0"  />	
+		<argument version="1.1" id="13" name="ASWC_AC_PPT" type="bool" default="0" des="" enable="0"  />	
+		<argument version="1.1" id="14" name="ASWC_AC_SI" type="bool" default="0" des="" enable="0"  />	
+	</argumentgroup>
+	
+	<argumentgroup version="1.1" name ="CALCULATION_AREA" des="">
+		<argument version="1.1" id="15" name="AREA_MIN" type="double" default="3" des="" enable="1">	
+			<typedouble version="1.1" max="10000.0" min="0.0" precision="0.01" step="0.01" val="0" des=""/>
+		</argument>
+		<argument version="1.1" id="16" name="AREA_MAX" type="double" default="35" des="" enable="1" >	
+			<typedouble version="1.1" max="1000000.0" min="0.01" precision="0.01" step="0.01" val="0" des=""/>
+		</argument>
+		<argument version="1.1" id="17" name="AREA_STEP" type="double" default="1" des="" enable="1" >
+			<typedouble version="1.1" max="1000.0" min="0.01" precision="0.01" step="0.01" val="0" des=""/>
+		</argument>
+	</argumentgroup>
+	
+		<argumentgroup version="1.1" name ="DIRECTION_ANGLE" des="">
+		<argument version="1.1" id="18" name="AXIS_ANGLE_STEP" type="double" default="30.0" des="" enable="1">	
+			<typedouble version="1.1" max="180.0" min="0.01" precision="0.01" step="5" val="0" des=""/>
+		</argument>
+		<argument version="1.1" id="19" name="ROUND_ANGLE_STEP" type="double" default="30.0" des="" enable="1" >	
+			<typedouble version="1.1" max="180.0" min="0.01" precision="0.01" step="5" val="0" des=""/>
+		</argument>
+	</argumentgroup>
+	
+</arguments>

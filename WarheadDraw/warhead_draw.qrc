@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images">
+      <file alias="cone">./Resources/cone.PNG</file>
+      <file alias="cylinder">./Resources/cylinder.PNG</file>
+      <file alias="oval">./Resources/oval.PNG</file>
+    </qresource>
+</RCC>

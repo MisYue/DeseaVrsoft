@@ -1,0 +1,13 @@
+#ifndef WARHEADFILEREADWRITE_GLOBAL_H
+#define WARHEADFILEREADWRITE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef WARHEADFILEREADWRITE_LIB
+# define WARHEADFILEREADWRITE_EXPORT Q_DECL_EXPORT
+#else
+# define WARHEADFILEREADWRITE_EXPORT Q_DECL_IMPORT
+#pragma comment(lib, "warheadfilereadwrite.lib")
+#endif
+
+#endif // WARHEADFILEREADWRITE_GLOBAL_H

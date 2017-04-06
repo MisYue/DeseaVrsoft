@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+	<!-- 单位系统-->
+	<item key="UNIT_SYSTEM" val="单位系统" des=""/>
+	<item key="LENGTH_COEF" val="长度单位" des=""/>
+	<item key="MM_UNIT" val="毫米" des=""/>
+	<item key="CM_UNIT" val="厘米" des=""/>
+	<item key="M_UNIT" val="米" des=""/>
+	<item key="KM_UNIT" val="千米" des=""/>
+	<item key="MASS_COEF" val="质量单位" des=""/>
+	<item key="G_MASS" val="克" des=""/>
+	<item key="KG_MASS" val="千克" des=""/>
+	<item key="TIME_COEF" val="时间单位" des=""/>
+	<item key="US_TIME" val="微妙" des=""/>
+	<item key="MS_TIME" val="毫秒" des=""/>
+	<item key="S_TIME" val="秒" des=""/>
+	<!-- 战斗部参数-->
+	<item key="WARHEAD_PARAM" val="战斗部参数" des=""/>
+	<item key="WARHEAD_TOTAL_MASS" val="战斗部总质量" des=""/>
+	<item key="WARHEAD_CHARGE_MASS" val="战斗部装药质量" des=""/>
+	<!-- 装药参数-->
+	<item key="CHARGE_PARAM" val="装药参数" des=""/>
+	<item key="CHARGE_ID" val="装药-ID" des=""/>
+	<item key="CHARGE_DENSITY" val="密度" des=""/>
+	<item key="CHARGE_EXPLOSION_VELOCITY" val="爆速" des=""/>
+	<item key="CHARGE_EXPLOSION_HEAT" val="爆热" des=""/>
+	<item key="CHARGE_EXPLOSIN_PRESSURE" val="爆压" des=""/>
+	<!-- 计算模式-->
+	<item key="CALCULATION_MODE" val="计算模式" des=""/>
+	<item key="ASWC_WAMM" val="是否采用整弹计算" des=""/>
+	<item key="ASWC_TNTE" val="是否采用TNT当量计算" des=""/>
+	<!-- 计算项-->
+	<item key="CALCULATION_ITEM" val="计算项" des=""/>
+	<item key="ASWC_AC_OP" val="超压" des=""/>
+	<item key="ASWC_AC_PPT" val="正压区作用时间" des=""/>
+	<item key="ASWC_AC_SI" val="比冲量" des=""/>
+	<!-- 计算区域-->
+	<item key="CALCULATION_AREA" val="计算区域" des=""/>
+	<item key="AREA_MIN" val="最小值" des=""/>
+	<item key="AREA_MAX" val="最大值" des=""/>
+	<item key="AREA_STEP" val="步长" des=""/>
+	<!--方向角信息-->
+	<item key="DIRECTION_ANGLE" val="方向角" des=""/>
+	<item key="AXIS_ANGLE_STEP" val="轴向角步长" des=""/>
+	<item key="ROUND_ANGLE_STEP" val="周向角步长" des=""/>
+	<!-- 计算输出-->
+	<item key="ASWC_AC_OP_DISTRIBUTION" val="超压分布" des=""/>
+	<item key="DISTANCE" val="距离" des=""/>
+	<item key="AXISANGLE" val="轴向角" des=""/>
+	<item key="ROUNDANGLE" val="周向角" des=""/>
+	<item key="OVERPRESSURE" val="超压" des=""/>
+	<item key="EFFECTTIME" val="正压区作用时间" des=""/>
+	<item key="SECIFICIMPULSE" val="比冲量" des=""/>
+	<!-- 其他-->
+	<item key="ARGUMENT_YES" val="是" des=""/>
+	<item key="ARGUMENT_NO" val="否" des=""/>
+</dictionary>

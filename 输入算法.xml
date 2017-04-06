@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<arguments version="1.1" id="{54112B6E-52EB-4ED7-8B05-E9668B1B9C82}">
+	<argument version="1.1" id="0"  type="enum" val="3" des=""/>
+	<argument version="1.1" id="1"  type="enum" val="2" des=""/>	
+	<argument version="1.1" id="2"  type="enum" val="3" des=""/>
+	<argument version="1.1" id="3"  type="double" val="205.0" des=""/>
+	<argument version="1.1" id="4"  type="double" val="77.0" des=""/>
+	<argument version="1.1" id="5"  type="integer" val="0" des=""/>
+	<argument version="1.1" id="6"  type="double" val="1800" des=""/>
+	<argument version="1.1" id="7"  type="double" val="7400" des=""/>
+	<argument version="1.1" id="8"  type="double" val="7.33e6" des=""/>
+	<argument version="1.1" id="9"  type="double" val="0" des=""/>	
+	<argument version="1.1" id="10"  type="enum" val="3" des=""/>
+	<argument version="1.1" id="11"  type="enum" val="2" des=""/>
+	<argument version="1.1" id="12"  type="bool" val="1" des=""/>
+	<argument version="1.1" id="13"  type="bool" val="0" des=""/>
+	<argument version="1.1" id="14"  type="bool" val="0" des=""/>
+	<argument version="1.1" id="15"  type="double" val="3.0" des=""/>
+	<argument version="1.1" id="16"  type="double" val="35.0" des=""/>
+	<argument version="1.1" id="17"  type="double" val="1" des=""/>
+	<argument version="1.1" id="18"  type="double" val="30.0" des=""/>
+	<argument version="1.1" id="19"  type="double" val="30.0" des=""/>
+</arguments>

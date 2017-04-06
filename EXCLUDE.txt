@@ -1,0 +1,13 @@
+/////////////////////////////////////////
+*.exp
+*.lib
+*.iner
+*.pdb
+*.dmp
+*.htm
+*.obj
+*.manifest
+*.idb
+*.dep
+*.ilk
+*.res

@@ -1,0 +1,1 @@
+#define CSVREADER_API __declspec(dllexport) 
